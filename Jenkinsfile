@@ -4,7 +4,9 @@ pipeline {
      maven 'Maven 3.8.4'
      jdk 'jdk8'
    }
-   
+   environment {
+      AXWAY_APIM_CLI_HOME = "/home/sofiane/apim-cli-1.8.0/"
+   }
    stages {
       stage('Build') {
          steps {
