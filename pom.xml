@@ -96,7 +96,7 @@
 				</executions>
 				<configuration>
 					<addResourcesToClasspath>true</addResourcesToClasspath>
-					<mainClass>com.axway.apim.App</mainClass>
+					<mainClass>com.axway.apim.cli.APIManagerCLI</mainClass>
 					<classpath />
 					<commandlineArgs>
                         -c ${apiConfigFile} -s ${stage} -f true
