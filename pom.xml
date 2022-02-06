@@ -99,7 +99,7 @@
 					<mainClass>com.axway.apim.cli.APIManagerCLI</mainClass>
 					<classpath />
 					<commandlineArgs>
-                        -c ${apiConfigFile} -s ${stage} -f true
+                         	api import -c ${apiConfigFile} -s ${stage}
                     </commandlineArgs>
 				</configuration>
 			</plugin>
